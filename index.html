@@ -1,4 +1,73 @@
 <html>
+<p id = "question">What is your price range for a keyboard</p> 
+<script type="text/javascript">
+	function q1(answer){
+		switch(answer){
+			case 1:
+			document.getElementById("question").innerHTML = "Typist, coder, or gamer?";
+			document.getElementById("one").innerHTML = "Typist";
+			document.getElementById("one").value = "1q2";
+			document.getElementById("two").innerHTML = "Coder";
+			document.getElementById("two").value = "2q2";
+			document.getElementById("three").innerHTML = "Gamer";
+			document.getElementById("three").value = "3q2";
 
-</html>
-<script type="text/javascript" src="script.js"></script>
+			
+			break;
+			
+			case 2:
+			document.getElementById("question").innerHTML = "Typist, coder, or gamer?";
+			document.getElementById("one").innerHTML = "Typist";
+			document.getElementById("one").value = "1q2";
+			document.getElementById("two").innerHTML = "Coder";
+			document.getElementById("two").value = "2q2";
+			document.getElementById("three").innerHTML = "Gamer";
+			document.getElementById("three").value = "3q2";
+			break;
+			
+			case 3:
+			document.getElementById("question").innerHTML = "Typist, coder, or gamer?";
+			document.getElementById("one").innerHTML = "Typist";
+			document.getElementById("one").value = "1q2";
+			document.getElementById("two").innerHTML = "Coder";
+			document.getElementById("two").value = "2q2";
+			document.getElementById("three").innerHTML = "Gamer";
+			document.getElementById("three").value = "3q2";
+			break;
+		}
+		
+	}
+		
+/*	function q1(answer){
+		switch(answer){
+			case 1:
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("three").innerHTML = "Very Small";
+			break;
+			
+			case 2:
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("three").innerHTML = "Very Small";
+			break;
+			
+			case 3:
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("three").innerHTML = "Very Small";
+			break;
+		}
+	}*/
+	
+	
+
+</script>
+
+<button type="button" id="one" onclick="q1(1)">Low</button>
+<button type="button" id="two" onclick="q1(2)">Medium</button>
+<button type="button" id="three" onclick="q1(3)">High</button>
+<html>
