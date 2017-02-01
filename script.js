@@ -13,7 +13,6 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 			var a3 = document.getElementById("three");
 			a3.setAttribute("onclick", "q2(3)");
 			options.splice(9, 27);
-			alert(options);
 			break;
 			
 			case 2:
