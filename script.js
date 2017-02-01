@@ -1,7 +1,3 @@
-<html>
-
-<p id = "question">What is your price range for a keyboard</p> 
-
 <script type="text/javascript">
 var choice = [];
 	function q1(answer){
