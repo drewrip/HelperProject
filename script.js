@@ -98,18 +98,18 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 			switch(answer){
 				case 1:
 				options.splice(1, 3)
-				document.write(options);
+				document.getElementById("outputArea").value = options;
 				break;
 				
 				case 2:
 				options.splice(0, 1);
 				options.splice(1, 2);
-				document.write(options);
+				document.getElementById("outputArea").value = options;
 				break;
 				
 				case 3:
 				options.splice(0, 2);
-				document.write(options);
+				document.getElementById("outputArea").value = options;
 				break;
 			}
 		}
