@@ -50,28 +50,28 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 	function q2(answer){
 		switch(answer){
 			case 1:
-			document.getElementById("question").innerHTML = "What size of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard 104-key";
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Split or Ergonomic";
+			document.getElementById("two").innerHTML = "Small";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Tenkeyless or smaller";
+			document.getElementById("three").innerHTML = "Very Small";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(3, 9);
 			break;
 			
 			case 2:
-			document.getElementById("question").innerHTML = "What size of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard 104-key";
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Split or Ergonomic";
+			document.getElementById("two").innerHTML = "Small";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Tenkeyless or smaller";
+			document.getElementById("three").innerHTML = "Very Small";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(0, 3);
@@ -79,14 +79,14 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 			break;
 			
 			case 3:
-			document.getElementById("question").innerHTML = "What size of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard 104-key";
+			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
+			document.getElementById("one").innerHTML = "Standard";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Split or Ergonomic";
+			document.getElementById("two").innerHTML = "Small";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Tenkeyless or smaller";
+			document.getElementById("three").innerHTML = "Very Small";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(0, 6);
@@ -103,7 +103,7 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 				
 				case 2:
 				options.splice(0, 1);
-				options.splice(2, 3);
+				options.splice(1, 2);
 				alert(options);
 				break;
 				
@@ -112,5 +112,4 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 				alert(options);
 				break;
 			}
-		}	
-	
+		}
