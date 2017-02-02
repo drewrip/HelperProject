@@ -51,13 +51,13 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 		switch(answer){
 			case 1:
 			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("one").innerHTML = "Standard 104-key";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("two").innerHTML = "Split or Ergonomic";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Very Small";
+			document.getElementById("three").innerHTML = "Tenkeyless or Smaller";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(3, 9);
@@ -65,13 +65,13 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 			
 			case 2:
 			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("one").innerHTML = "Standard 104-key";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("two").innerHTML = "Split or Ergonomic";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Very Small";
+			document.getElementById("three").innerHTML = "Tenkeyless or Smaller";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(0, 3);
@@ -80,13 +80,13 @@ var options = ["Azio MGK1-K with Blues", "Atreus with Blues", "CM Storm QuickFir
 			
 			case 3:
 			document.getElementById("question").innerHTML = "How large of a keyboard do you want?";
-			document.getElementById("one").innerHTML = "Standard";
+			document.getElementById("one").innerHTML = "Standard 104-key";
 			a1 = document.getElementById("one");
 			a1.setAttribute("onclick", "q3(1)");
-			document.getElementById("two").innerHTML = "Small";
+			document.getElementById("two").innerHTML = "Split or Ergonomic";
 			a1 = document.getElementById("two");
 			a1.setAttribute("onclick", "q3(2)");
-			document.getElementById("three").innerHTML = "Very Small";
+			document.getElementById("three").innerHTML = "Tenkeyless or Smaller";
 			a1 = document.getElementById("three");
 			a1.setAttribute("onclick", "q3(3)");
 			options.splice(0, 6);
