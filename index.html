@@ -1,9 +1,13 @@
 <html>
 
-<p id = "question">What price level are you willing to spend on a keyboard?</p> 
+<h1>Choose Your Keyboard</h1>
+
+<p id = "question">What is your price range for a keyboard</p> 
 
 <script type="text/javascript" src="script.js"></script>
 
+<table>
+<td>
 <button type="button" id="one" onclick="q1(1)">Low</button>
 <button type="button" id="two" onclick="q1(2)">Medium</button>
 <button type="button" id="three" onclick="q1(3)">High</button>
@@ -15,8 +19,64 @@
 
 <button type="button" id="restart" onclick="restart()">Restart</button>
 
-  
+</td>
+</table>
+
 <style>
+
+
+h1{
+	color:#A41903;
+	text-align:center;
+	font-size:50px;
+	font-family: Impact;
+	background-color: #F6A800;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 10px;
+}
+
+p{
+	color:black;
+	text-align:center;
+	font-size:20px;
+	font-family: Impact;
+}
+
+button{
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 15px;
+	background-color: #F6A800;
+	padding: 8px;
+	font-family: Impact;
+	color:#A41903;
+	text-align:center;
+}
+
+body{
+	background-color:#A41903;
+}
+
+tr{
+	padding-left: 40em;
+}
+
+td{
+	padding-left: 40em;
+	text-align: center;
+}
+
+textarea{
+	font-family: Impact;
+	background-color: #F6A800;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.15em;
+	border-radius: 0.5em;
+	text-align:center;
+}
 
 </style>
   
